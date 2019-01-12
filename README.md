@@ -53,7 +53,11 @@ Vue.use(preview, {
   <vue-preview :slides="slide1" @close="handleClose"></vue-preview>
 </template>
 
-```html 
+
+
+### Examples
+
+#### html
  <img class="preview-img" v-for="(item, index) in list" :src="item.src" height="100" @click="$preview.open(index, list)">
       
 <script>
