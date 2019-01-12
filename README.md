@@ -54,11 +54,11 @@ Vue.use(preview, {
 </template>
 
 
-
+<!--
 ### Examples
 
 #### html
- <img class="preview-img" v-for="(item, index) in list" :src="item.src" height="100" @click="$preview.open(index, list)">
+ <img class="preview-img" v-for="(item, index) in list" :src="item.src" height="100" @click="$preview.open(index, list)">-->
       
 <script>
 export default {
